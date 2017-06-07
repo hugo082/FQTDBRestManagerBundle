@@ -1,0 +1,27 @@
+{
+    "name" : "fqt/db-rest-managerbundle",
+    "description" : "Database REST manager",
+    "type" : "symfony-bundle",
+    "license": "MIT",
+    "authors" : [{
+        "name" : "Hugo Fouquet",
+        "email" : "hugo.fouquet@epita.fr",
+        "role": "Developer"
+    }],
+    "keywords" : [
+        "Database manager", "REST manager"
+    ],
+    "require" : {
+        "php" : ">=7.0.0",
+        "symfony/framework-bundle" : ">=3.0",
+        "twig/twig" : "*",
+        "doctrine/doctrine-bundle" : "*",
+        "fqt/db-core-managerbundle" : "1.*"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "FQT\\DBRestManagerBundle" : ""
+        }
+    },
+    "target-dir" : "FQT/DBRestManagerBundle"
+}
