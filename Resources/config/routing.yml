@@ -1,0 +1,3 @@
+fqtdb_rest_manager_homepage:
+    path:     /
+    defaults: { _controller: FQTDBRestManagerBundle:Default:index }
